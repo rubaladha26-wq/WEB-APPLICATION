@@ -1,0 +1,29 @@
+{
+  "name": "nexus-billing-invoice-management-system",
+  "version": "1.0.0",
+  "description": "Production-grade MERN Stack Billing & Invoice Management Platform",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "mern",
+    "invoice",
+    "billing",
+    "accounting",
+    "react",
+    "node",
+    "mongodb",
+    "pdfkit",
+    "recharts"
+  ],
+  "author": "Antigravity Senior Architect",
+  "license": "MIT"
+}
+
